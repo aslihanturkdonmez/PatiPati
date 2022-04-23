@@ -7,72 +7,74 @@ Kediler hakkında her şey...
 ## İndirme ve Test Bağlantısı (Android)
 macOS cihaz mevcut olmadığı için iOS versiyonu bulunmamaktadır. Kurulum başlığı altında iOS versiyonun çalıştırılabilmesi için gerekli talimatlar verilmiştir. 
 
+## İçerik
+* [İndirme ve Test Bağlantısı](#i̇ndirme-ve-test-bağlantısı-android)
+* [Uygulama Görselleri](#uygulama-görselleri)
+* [Uygulama Özellikleri](#uygulama-özellikleri)
+* [Gereksinimler](#gereksinimler)
+* [Kurulum](#kurulum)
+* [Geliştirme Süreci](#geliştirme-süreci)
+
+
+
+## Uygulama Özellikleri
+* Launch Screen 
+* Ana Sayfa
+  * Kedi türlerini görüntüleme
+  * Kedi türü arama
+  * Infinite Scroll
+  * Favorilere ekleme / çıkarma (Persist)
+  * Pull to refresh
+  * Detay sayfasına erişim
+  * Favoriler sayfasına erişim
+  * Progressive Image
+
+* Detay Sayfası
+  * Kedi türü özelliklerini görüntüleme
+  * Linking
+  * Favorilere ekleme / çıkarma (Persist)
+  * Carousel
+  * Progressive Image
+
+* Favoriler Sayfası
+  * Favorileri listeleme
+  * Detay sayfasına erişim
+  * Favorilere ekleme / çıkarma (Persist)
+  * Pull to refresh
+
+## Uygulama Görselleri
+
 ## Gereksinimler
- 
+  ### :arrow_right: iOS
+ * [Node](https://nodejs.org/) 
+ * [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
+ * [CocoaPods](https://cocoapods.org/)
+
  ### :arrow_right: Android  
  * [Node](https://nodejs.org/)
  * [Java SE Development Kit (JDK)](https://openjdk.java.net/projects/jdk/11/)
  * [Android Studio](https://developer.android.com/studio)
 
- ### :arrow_right: iOS
- * [Node](https://nodejs.org/) 
- * [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
- * [CocoaPods](https://cocoapods.org/)
-
 ## Kurulum
-### :arrow_right: Android 
-Proje dizinindeyken terminal üzerinde
-```sh
-npm install || yarn install
-npx react-native run-android
-```
-komutları çalıştırılmalıdır
-
 ### :arrow_right: iOS 
 Proje dizinindeyken terminal üzerinde
 ```sh
-npm install || yarn install
+npm install
 cd ios
 pod install
 cd ..
 npx react-native run-ios
 ```
 komutları çalıştırılmalıdır
-
-
-* Bullet list
-
-  * Nested bullet
-
-   * Sub-nested bullet etc
-
-* Bullet list item 2
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
+### :arrow_right: Android 
+Proje dizinindeyken terminal üzerinde
+```sh
+npm install
+npx react-native run-android
 ```
+komutları çalıştırılmalıdır
 
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Geliştirme Süreci
+* Geliştirme Ortamı: [React Native](https://reactnative.dev/)
+* State Management: [Redux](https://redux.js.org/)
+* Design Pattern: [Container/Presentational](https://www.patterns.dev/posts/presentational-container-pattern/)
