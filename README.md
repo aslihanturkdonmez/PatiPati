@@ -8,7 +8,7 @@ Kediler hakkında her şey...
 ## İndirme ve Test Bağlantısı (Android)
 [APK](https://drive.google.com/file/d/1Ie6CAt6IfRVGVNIyvvLjPrOMnTfiGRMI/view?usp=sharing)
 
-macOS cihaz mevcut olmadığı için iOS versiyonu bulunmamaktadır. Kurulum başlığı altında iOS versiyonun çalıştırılabilmesi için gerekli talimatlar verilmiştir. Ayrıca uygulama tanıtım videosu iOS Simulator üzerinden çekilmiştir. Video için [tıklayınız](https://youtu.be/Zs3ah85GadU).
+macOS cihaz mevcut olmadığı için iOS versiyonu (.ipa dosyası) bulunmamaktadır. Kurulum başlığı altında iOS versiyonun çalıştırılabilmesi için gerekli talimatlar verilmiştir. Ayrıca uygulama tanıtım videosu iOS Simulator üzerinden çekilmiştir. Video için [tıklayınız](https://youtu.be/Zs3ah85GadU).
 
 ## İçerik
 * [İndirme ve Test Bağlantısı](#i̇ndirme-ve-test-bağlantısı-android)
